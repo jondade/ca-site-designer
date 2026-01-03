@@ -18,6 +18,7 @@
                 <li><a href="#forms">Forms</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
+            <img src="resources/images/favicon.svg" alt="JD Logo" id="jdlogo">
             <img src="resources/images/Official_CSS_Logo.svg" alt="CSS Logo: A purple square with rounded corners containing the letters CSS in white, representing the Cascading Style Sheets web technology used in web design." id="logo">
         </nav>
         
@@ -36,7 +37,7 @@
         </section>
         <section class="guide-section">
             <h2>Typography</h2>
-            <article id="typography">
+            <article id="typography" class="guide-article">
                 <h3>Headings</h3>
                 <p>Font Family: Arial, sans-serif</p>
                 <p>Font Size: 24px for H1, 20px for H2, 16px for H3</p>
@@ -51,16 +52,30 @@
                 <p>This is a sample paragraph demonstrating the body text style. It uses the Arial font family and is set to 14px size for optimal readability.</p>
             </article>
         </section>
-        <section id="colors">
-            <h2>Colors</h2>
-            <p>This section outlines the color palette used in my designs.</p>
-            <ul>
-                <li>Primary Color: #3498db (Blue)</li>
-                <li>Secondary Color: #2ecc71 (Green)</li>
-                <li>Accent Color: #e74c3c (Red)</li>
-                <li>Background Color: #ecf0f1 (Light Grey)</li>
-                <li>Text Color: #2c3e50 (Dark Grey)</li>
-            </ul>
+        <section id="colors-section">
+            <h2>Colours</h2>
+            <article id="colors" class="guide-article">
+                <p>This section outlines the color palette used in my designs.</p>
+                <ul>
+                    <li class="dark-grey white-bg">Primary Color: #303030 (Dark Grey)</li>
+                    <li class="light-grey dark-grey-bg">Accent Color: #d3d3d3 (Light Grey)</li>
+                    <li class="white-bg dark-grey">Background Color (light): #f4f4f4 (White)</li>
+                    <li class="dark-grey-bg white">Background Color (dark): #303030 (Dark Grey)</li>
+                    <li class="dark-grey white-bg">Text Color (light background): #303030 (Dark Grey)</li>
+                    <li class="white dark-grey-bg">Text Color (dark background): #f4f4f4 (White)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="code-block-section">
+            <h2>Code Blocks</h2>
+            <article id="code-block-article">
+                <p>Code blocks are styled with a dark background and light text for optimal readability. They should be 80 characters wide and minimum 5 lines high. They should be in the middle of the page, inset to show the code clearly.</p>
+            </article>
+            <article id="code-block-example-article">
+            <pre class="code-block"><code>function greet(name) {
+    return "Hello, " + name + "!";
+}</code></pre>
+            </article>
         </section>
 
         <section id="buttons">
